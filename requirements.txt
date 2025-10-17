@@ -1,0 +1,30 @@
+# Core dependencies
+requests>=2.28.0
+
+# OCPP Emulator dependencies
+websockets>=11.0.3
+ocpp>=0.15.0
+inputimeout>=1.0.4
+
+# MQTT Emulator dependencies  
+paho-mqtt>=1.6.1
+
+# Solar/Astronomical calculations for inverter emulator
+astral>=3.2
+
+# Testing framework dependencies
+locust>=2.17.0
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Utility dependencies
+python-dateutil>=2.8.2
+pytz>=2023.3
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Development dependencies (optional)
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
